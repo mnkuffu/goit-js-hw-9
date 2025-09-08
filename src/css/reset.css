@@ -32,3 +32,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+.content-wrapper {
+  margin: 0 auto;
+  color: rgb(195, 91, 255);
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  text-align: center;
+  font-size: 24px;
+}

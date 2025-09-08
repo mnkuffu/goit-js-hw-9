@@ -1,0 +1,32 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1128px;
+  margin: 24px auto;
+}
+.gallery-item {
+  width: 360px;
+  height: 200px;
+}
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 250ms ease-in-out;
+}
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+.bg {
+  background-color: #2e2f42cc;
+}
+.sl-wrapper .sl-close {
+  color: #ffffff;
+}
+.sl-wrapper .sl-navigation button {
+  color: #ffffff;
+}
+.sl-wrapper .sl-counter {
+  color: #ffffff;
+}
